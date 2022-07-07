@@ -1,5 +1,5 @@
 {
-  "name": "@codeinahat/e-commerce",
+  "name": "@codeinahat/e-commerce-lib",
   "version": "1.0.0",
   "description": "CODEINAHAT standard library for e-commerce application and services",
   "main": "index.js",
@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Richard Chapman Gomez",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@types/mongodb": "^4.0.7"
+  }
 }
