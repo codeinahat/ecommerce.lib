@@ -1,8 +1,14 @@
 export type PricingType = 
-//// Select standard pricing if you charge the same price for each unit.
+/**
+   Select standard pricing if you charge the same price for each unit.
+ **/ 
 'Standard' |  
 
-//// Select package pricing if you charge by the package, or group of units. For example, say you charge $25.00 for every 5 units. Purchases are rounded up by default, so a customer buying 8 units would pay $50.00.
+/***
+   Select package pricing if you charge by the package, or group of units. 
+   For example, say you charge $25.00 for every 5 units. Purchases are rounded up by default, 
+   so a customer buying 8 units would pay $50.00.
+ *  */ 
 'Package' | 
 
 /**

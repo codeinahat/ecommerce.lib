@@ -11,6 +11,6 @@ export class Item {
     /** optional **/
     image?: string; //// item image
     
-    //? CAN BE ANOTHER CALL ALL TOGETHER
+    //? CAN BE ANOTHER CLASS ALL TOGETHER
     tax_category: Decimal128 | number; //// use to calculate product tax
 }
