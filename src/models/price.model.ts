@@ -2,7 +2,9 @@ import { ObjectId, Decimal128 } from 'mongodb';
 import { PricingType } from '../types/pricing.type';
 
 
-
+/**
+ * {@link Price} handles {@link Item} pricing model.
+ */
 export class Price {
     _id: ObjectId; //// unique identifier
 
