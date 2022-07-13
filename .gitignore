@@ -2,3 +2,5 @@ node_modules
 
 
 e-commerce.lib
+
+./pre-publish.process.js
