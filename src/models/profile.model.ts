@@ -20,7 +20,7 @@ export class Profile {
 
     /**
      * Returns full name.
-     * @returns {string}
+     * @returns string
      * @since v1.0.0
      */
     name() {
