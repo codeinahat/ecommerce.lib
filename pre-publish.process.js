@@ -1,11 +1,11 @@
 const fs = require('fs');
 
-const dest = `./e-commerce.lib`
+const dest = `${__dirname}/e-commerce.lib`
 
-fs.copyFileSync('./LICENSE', dest);
+fs.copyFileSync(`${__dirname}/LICENSE`, `${dest}/LICENSE`);
 
-fs.copyFileSync('./package-lock.json', dest);
+fs.copyFileSync(`${__dirname}/README.md`, `${dest}/README.md`);
 
-fs.copyFileSync('./package.json', dest);
+fs.copyFileSync(`${__dirname}/package-lock.json`, `${dest}/package-lock.json`);
 
-fs.copyFileSync('./README.md', dest);
+fs.copyFileSync(`${__dirname}/package.json`, `${dest}/package.json`);

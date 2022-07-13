@@ -4,7 +4,8 @@
   "description": "CODEINAHAT standard library for e-commerce application and services",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm:publish": "node pre-publish.process.js && npm ./e-commerce.lib --access public"
   },
   "author": "Richard Chapman Gomez",
   "license": "SEE LICENSE IN LICENSE",
