@@ -1,6 +1,6 @@
 {
   "name": "@codeinahat/e-commerce-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CODEINAHAT standard library for e-commerce application and services",
   "main": "index.js",
   "scripts": {
